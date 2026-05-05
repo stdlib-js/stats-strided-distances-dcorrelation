@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Calculate the [correlation distance][correlation-distance] between two double-precision floating-point strided arrays.
+> Compute the [correlation distance][correlation-distance] between two double-precision floating-point strided arrays.
 
 <section class="intro">
 
@@ -48,8 +48,6 @@ D(X, Y) = 1 - \frac{\displaystyle\sum_{i=0}^{N-1} (x_i - \bar{x})(y_i - \bar{y})
 <!-- </equation> -->
 
 where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respectively.
-
-<!-- </equation> -->
 
 
 </section>
@@ -86,7 +84,7 @@ var dcorrelation = require( '@stdlib/stats-strided-distances-dcorrelation' );
 
 #### dcorrelation( N, x, strideX, y, strideY )
 
-Computes the [correlation distance][correlation-distance] of two double-precision floating-point strided arrays.
+Computes the [correlation distance][correlation-distance] between two double-precision floating-point strided arrays.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -137,7 +135,7 @@ var c = dcorrelation( 4, x1, 2, y1, 2 );
 
 #### dcorrelation.ndarray( N, x, strideX, offsetX, y, strideY, offsetY )
 
-Computes the [correlation distance][correlation-distance] of two double-precision floating-point strided arrays using alternative indexing semantics.
+Computes the [correlation distance][correlation-distance] between two double-precision floating-point strided arrays using alternative indexing semantics.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
