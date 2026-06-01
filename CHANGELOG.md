@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-06-01)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`eb16cda`](https://github.com/stdlib-js/stdlib/commit/eb16cda7c4554147bfa724f0ee9a24fcf0422d18) - **docs:** update related packages sections [(#12414)](https://github.com/stdlib-js/stdlib/pull/12414) _(by stdlib-bot)_
 -   [`e16eb11`](https://github.com/stdlib-js/stdlib/commit/e16eb11c02f1861dad6f5681d76b9e3af9eb7978) - **chore:** minor clean-up [(#11951)](https://github.com/stdlib-js/stdlib/pull/11951) _(by Philipp Burckhardt)_
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - **feat:** add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917) _(by Nakul Krishnakumar, Athan Reines)_
 

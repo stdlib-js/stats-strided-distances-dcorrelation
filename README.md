@@ -49,7 +49,6 @@ D(X, Y) = 1 - \frac{\displaystyle\sum_{i=0}^{N-1} (x_i - \bar{x})(y_i - \bar{y})
 
 where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respectively.
 
-
 </section>
 
 <!-- /.intro -->
