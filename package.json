@@ -96,6 +96,7 @@
     "dcorrelation",
     "correlation",
     "distance",
+    "metric",
     "strided",
     "strided array",
     "typed",
